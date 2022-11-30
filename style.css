@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;700;800&display=swap');
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --dark-blue:#3b506c;
+    --blue:#0c66ff;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+/* header start */
+header {
+    padding: 20px 100px;
+    border-bottom: 2px solid #00000047;
+    box-shadow: 1px 2px 1px #00000026;
+}
+
+.container-full{
+    display: flex;
+    width: 1200px;
+    margin: 0px auto;
+
+}
+.logo{
+    flex-basis: 25%;
+}
+.nav{
+    flex-basis: 74%;
+    text-align: right;
+}
+.nav ul{
+    list-style: none;
+}
+.nav ul li {
+    padding: 10px 20px;
+    display: inline-block;
+}
+.nav ul li a{
+    text-decoration: none;
+    color:#3b506c;
+    font-size: 20px;
+    font-weight: 500;
+
+}
+
+.container{
+    text-align: center;
+    width: 1200px;
+    margin: 0px auto;
+}
+/* its-time start */
+.its-time {
+    margin: 100px;
+    max-width: ;
+}
+
+.its-time h2 {
+    font-size: 55px;
+    color: #3b506c;
+    line-height: 65px;
+}
+
+.its-time h2 span{
+    font-size: 55px;
+    color: #0c66ff;
+    line-height: 65px;
+}
+
+.its-time p {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 21px;
+    max-width: 800px;
+    margin: auto;
+}
+.its-time img{
+    width: 70%;
+    margin: auto;
+    margin: 50px 0px;
+}
+
+
+/* Successfull start */
+.successfull .container{
+    display: flex;
+}
+
+.successfull h3{
+    color: #ff6585;
+    font-size: 70px;
+    font-weight: 600;
+    
+
+}
+
+.col-1-2 {
+    padding: 5px 20px;
+}
+.Goright{
+    text-align: right;
+}
+.successfull p {
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 25px;
+    max-width: 504px;
+}
+.successfull h2{
+    color: #3b506c;
+    font-size: 55px;
+    font-weight: 700;
+    text-align: left;
+    max-width: 484px;
+}
+
+/* 3box start from there */
+
+.hala{
+    display:flex;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+}
+
+.box1{
+    flex-basis:auto;
+    text-align: left;
+    padding: 20px;
+    
+}
+
+.box1 img {
+    width: 240px;
+    height: 200px;
+    display: block;
+    margin: auto;
+}
+.service1 {
+    background-color: rgb(222 222 207 / 48%);
+    padding: 20px;
+    
+}
+.service2 {
+    background-color: rgb(222 222 218 / 62%);
+    padding: 20px;
+}
+.service3 {
+    background: #e6ffd4;
+    padding: 20px;
+}
+
+.box1 h4 {
+    font-size: 20px;
+    color: #3b506c;
+    line-height: 28px;
+}
+.box1 p {
+    font-size: 16px;
+    line-height: 28px;
+}
+/* footer  */
+footer {
+    margin: 0px auto;
+    background: blue;
+    color: #fff;
+    text-align: center;
+    padding: 25px 0px;
+    margin-top: 30px;
+}
